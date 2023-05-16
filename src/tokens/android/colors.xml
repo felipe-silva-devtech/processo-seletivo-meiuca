@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 16 May 2023 03:06:06 GMT
+-->
+<resources>
+  <color name="brand_color_primary_1">#fffef0ec</color>
+  <color name="brand_color_primary_2">#fffbd1c6</color>
+  <color name="brand_color_primary_3">#fff04e23</color>
+  <color name="brand_color_primary_4">#ff8f260a</color>
+  <color name="brand_color_primary_5">#ff691c07</color>
+  <color name="neutral_color_1">#ffffffff</color>
+  <color name="neutral_color_2">#ffe4e5e7</color>
+  <color name="neutral_color_3">#ffa6aaaf</color>
+  <color name="neutral_color_4">#ff70747b</color>
+  <color name="neutral_color_5">#ff000000</color>
+  
+</resources>
