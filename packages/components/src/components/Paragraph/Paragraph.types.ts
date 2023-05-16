@@ -1,5 +1,5 @@
-import React from "react";
+import { ComponentWithStyledSystem } from "../../types/styled-system-props";
 
-export type ParagraphProps = React.PropsWithChildren & {
+export type ParagraphProps = ComponentWithStyledSystem & {
   content?: string;
 };

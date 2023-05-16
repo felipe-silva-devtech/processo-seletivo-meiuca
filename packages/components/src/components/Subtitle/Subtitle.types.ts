@@ -1,5 +1,5 @@
-import React from "react";
+import { ComponentWithStyledSystem } from "../../types/styled-system-props";
 
-export type SubtitleProps = React.PropsWithChildren & {
+export type SubtitleProps = ComponentWithStyledSystem & {
   content?: string;
 };

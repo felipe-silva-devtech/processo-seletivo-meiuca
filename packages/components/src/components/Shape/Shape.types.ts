@@ -1,6 +1,3 @@
-import React from "react";
+import { ComponentWithStyledSystem } from "../../types/styled-system-props";
 
-export type ShapeProps = React.PropsWithChildren & {
-  width?: string;
-  height?: string;
-};
+export type ShapeProps = ComponentWithStyledSystem;

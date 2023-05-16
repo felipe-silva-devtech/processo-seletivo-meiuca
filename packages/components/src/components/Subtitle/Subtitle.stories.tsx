@@ -15,6 +15,4 @@ export default {
   },
 } as Meta<SubtitleProps>;
 
-export const Default: StoryFn<typeof Subtitle> = (args) => (
-  <Subtitle {...args} />
-);
+export const Default: StoryFn<SubtitleProps> = (args) => <Subtitle {...args} />;
