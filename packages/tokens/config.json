@@ -1,9 +1,25 @@
 {
   "source": ["tokens.json"],
   "platforms": {
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "dist/",
+      "transforms": ["name/cti/camel", "keepCSSValues"],
+      "files": [
+        {
+          "destination": "index.js",
+          "format": "javascript/es6"
+        },
+        {
+          "destination": "index.d.ts",
+          "format": "typescript/es6-declarations"
+        }
+      ]
+    },
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "src/tokens/scss/",
+      "buildPath": "dist/scss/",
+      "transforms": ["name/cti/kebab", "keepCSSValues"],
       "files": [
         {
           "destination": "_variables.scss",
@@ -13,7 +29,7 @@
     },
     "android": {
       "transformGroup": "android",
-      "buildPath": "src/tokens/android/",
+      "buildPath": "mobile/android/",
       "files": [
         {
           "destination": "font_dimens.xml",
@@ -27,7 +43,7 @@
     },
     "compose": {
       "transformGroup": "compose",
-      "buildPath": "src/tokens/compose/",
+      "buildPath": "mobile/compose/",
       "files": [
         {
           "destination": "StyleDictionaryColor.kt",
@@ -56,7 +72,7 @@
     },
     "ios": {
       "transformGroup": "ios",
-      "buildPath": "src/tokens/ios/",
+      "buildPath": "mobile/ios/",
       "files": [
         {
           "destination": "StyleDictionaryColor.h",
@@ -106,7 +122,7 @@
     },
     "ios-swift": {
       "transformGroup": "ios-swift",
-      "buildPath": "src/tokens/ios-swift/",
+      "buildPath": "mobile/ios-swift/",
       "files": [
         {
           "destination": "StyleDictionary+Class.swift",

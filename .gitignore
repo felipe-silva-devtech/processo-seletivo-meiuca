@@ -111,3 +111,6 @@ storybook-static
 
 # Rollup
 .rollup.cache
+
+# Style Dictionary
+mobile
