@@ -108,3 +108,6 @@ next-env.d.ts
 
 # Storybook
 storybook-static
+
+# Rollup
+.rollup.cache
