@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card render component 1`] = `
+<div>
+  <div
+    class="css-17tpkix"
+    width="357px"
+  >
+    <h1
+      class="css-1uol47"
+    >
+      Heading SM
+    </h1>
+    <h2
+      class="css-1g1spkf"
+    >
+      Subtitle SM
+    </h2>
+    <p
+      class="css-1sclvem"
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    </p>
+    <button
+      class="css-gkv5w0"
+    >
+      Button Label
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Card render component with children 1`] = `
+<div>
+  <div
+    class="css-17tpkix"
+    width="357px"
+  >
+    <h1
+      class="css-1j1wjfe"
+    >
+      Heading SM
+    </h1>
+    <h2
+      class="css-9rgr1i"
+    >
+      Subtitle SM
+    </h2>
+    <p
+      class="css-2wh3l1"
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    </p>
+    <button
+      class="css-gkv5w0"
+    >
+      Button Label
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Card render component without subtitle 1`] = `
+<div>
+  <div
+    class="css-17tpkix"
+    width="357px"
+  >
+    <h1
+      class="css-1j1wjfe"
+    >
+      Heading SM
+    </h1>
+    <p
+      class="css-2wh3l1"
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    </p>
+    <button
+      class="css-gkv5w0"
+    >
+      Button Label
+    </button>
+  </div>
+</div>
+`;
