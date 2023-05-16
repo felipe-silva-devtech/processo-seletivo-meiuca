@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subtitle render component 1`] = `
+<div>
+  <h2
+    class="css-9rgr1i"
+  >
+    Subtitle SM
+  </h2>
+</div>
+`;
+
+exports[`Subtitle render component with children 1`] = `
+<div>
+  <h2
+    class="css-9rgr1i"
+  >
+    Subtitle SM
+  </h2>
+</div>
+`;
