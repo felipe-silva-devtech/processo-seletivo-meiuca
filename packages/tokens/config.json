@@ -8,7 +8,7 @@
       "files": [
         {
           "destination": "index.js",
-          "format": "javascript/es6"
+          "format": "javascript/module-flat"
         },
         {
           "destination": "index.d.ts",
