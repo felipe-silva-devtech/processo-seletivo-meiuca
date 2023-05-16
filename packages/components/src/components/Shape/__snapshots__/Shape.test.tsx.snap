@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shape render component 1`] = `
+<div>
+  <div
+    class="css-103z0u2"
+  >
+    <h1
+      class="css-1j1wjfe"
+    >
+      Heading Label
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`Shape render component with custom width and height 1`] = `
+<div>
+  <div
+    class="css-l313m4"
+    height="200"
+    width="200"
+  >
+    <h1
+      class="css-1j1wjfe"
+    >
+      Heading Label
+    </h1>
+  </div>
+</div>
+`;
