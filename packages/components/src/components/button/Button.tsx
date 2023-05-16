@@ -5,7 +5,7 @@ import { ButtonProps } from "./Button.types";
 
 export const Button: React.FC<ButtonProps> = ({
   children,
-  label,
+  label = "",
   ...props
 }) => {
   return <StyledButton {...props}>{children ? children : label}</StyledButton>;
