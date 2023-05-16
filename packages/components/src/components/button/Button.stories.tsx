@@ -1,39 +1,18 @@
-import { Button } from ".";
+import React from "react";
 
-// More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
+import { StoryFn, Meta } from "@storybook/react";
+
+import { Button, ButtonProps } from ".";
+
 export default {
-  title: "Example/Button",
+  title: "Components / Button",
   component: Button,
-  tags: ["autodocs"],
   argTypes: {
-    backgroundColor: { control: "color" },
+    label: { control: { type: "text" } },
   },
-};
-
-// More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const Primary = {
-  args: {
-    primary: true,
-    label: "Button",
-  },
-};
-
-export const Secondary = {
   args: {
     label: "Button",
   },
-};
+} as Meta<ButtonProps>;
 
-export const Large = {
-  args: {
-    size: "large",
-    label: "Button",
-  },
-};
-
-export const Small = {
-  args: {
-    size: "small",
-    label: "Button",
-  },
-};
+export const Default: StoryFn<ButtonProps> = (args) => <Button {...args} />;

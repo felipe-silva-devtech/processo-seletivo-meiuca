@@ -1,14 +1,15 @@
-/** @type { import('@storybook/react').Preview } */
+import React from "react";
+
+import { ThemeProvider, theme } from "@psm/theme";
+
 const preview = {
-  parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
-    controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/,
-      },
-    },
-  },
+  decorators: [
+    (Story) => (
+      <ThemeProvider theme={theme}>
+        <Story />
+      </ThemeProvider>
+    ),
+  ],
 };
 
 export default preview;
