@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph render component 1`] = `
+<div>
+  <p
+    class="css-2wh3l1"
+  >
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry
+  </p>
+</div>
+`;
+
+exports[`Paragraph render component with children 1`] = `
+<div>
+  <p
+    class="css-2wh3l1"
+  >
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry
+  </p>
+</div>
+`;
