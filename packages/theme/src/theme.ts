@@ -1,4 +1,4 @@
-import * as tokens from "@psm/tokens";
+import tokens from "@psm/tokens";
 
 export const theme = {
   lineHeights: {
