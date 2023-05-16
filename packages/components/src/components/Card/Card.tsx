@@ -22,10 +22,12 @@ export const Card: React.FC<CardProps> = ({
         children
       ) : (
         <>
-          <Heading marginBottom="stack.xxxs">{heading}</Heading>
-          <Subtitle marginBottom="stack.xxs">{subtitle}</Subtitle>
-          <Paragraph marginBottom="stack.sm">{paragraph}</Paragraph>
-          <Button>{buttonLabel}</Button>
+          {heading && <Heading marginBottom="stack.xxxs">{heading}</Heading>}
+          {subtitle && <Subtitle marginBottom="stack.xxs">{subtitle}</Subtitle>}
+          {paragraph && (
+            <Paragraph marginBottom="stack.sm">{paragraph}</Paragraph>
+          )}
+          {buttonLabel && <Button>{buttonLabel}</Button>}
         </>
       )}
     </Shape>
