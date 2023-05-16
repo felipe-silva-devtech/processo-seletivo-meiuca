@@ -1,7 +1,8 @@
 import styled from "@emotion/styled";
 import { basicProps } from "../../utils/styled-system-utils";
+import { HeadingProps } from "./Heading.types";
 
-export const StyledHeading = styled("h1")`
+export const StyledHeading = styled("h1")<HeadingProps>`
   ${basicProps}
 
   font-size: ${({ theme }) => theme.fontSizes.lg};

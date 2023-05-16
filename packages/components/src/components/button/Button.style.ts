@@ -1,7 +1,8 @@
 import styled from "@emotion/styled";
 import { basicProps } from "../../utils/styled-system-utils";
+import { ButtonProps } from "./Button.types";
 
-export const StyledButton = styled("button")`
+export const StyledButton = styled("button")<ButtonProps>`
   ${basicProps}
 
   font-size: ${({ theme }) => theme.fontSizes.xs};
@@ -9,7 +10,7 @@ export const StyledButton = styled("button")`
   border-radius: ${({ theme }) => theme.radii.none};
   border: none;
   outline: none;
-  padding: ${({ theme }) => theme.space.squish.xs};
+  padding: ${({ theme }) => theme.space.squish.sm};
   font-family: ${({ theme }) => theme.fonts.highlight};
   font-weight: ${({ theme }) => theme.fontWeights.medium};
   color: ${({ theme }) => theme.colors.neutral["05"]};

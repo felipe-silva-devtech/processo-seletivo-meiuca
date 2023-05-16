@@ -1,7 +1,8 @@
 import styled from "@emotion/styled";
 import { basicProps } from "../../utils/styled-system-utils";
+import { ParagraphProps } from "./Paragraph.types";
 
-export const StyledParagraph = styled("p")`
+export const StyledParagraph = styled("p")<ParagraphProps>`
   ${basicProps}
 
   font-size: ${({ theme }) => theme.fontSizes.xs};

@@ -1,7 +1,8 @@
 import styled from "@emotion/styled";
 import { basicProps } from "../../utils/styled-system-utils";
+import { SubtitleProps } from "./Subtitle.types";
 
-export const StyledSubtitle = styled("h2")`
+export const StyledSubtitle = styled("h2")<SubtitleProps>`
   ${basicProps}
 
   font-size: ${({ theme }) => theme.fontSizes.md};
