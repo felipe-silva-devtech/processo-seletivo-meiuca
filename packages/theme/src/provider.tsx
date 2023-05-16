@@ -18,6 +18,13 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     <EmotionGlobal
       styles={css`
         @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap");
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: ${theme.fonts.highlight};
+        }
       `}
     />
     {children}
