@@ -9,7 +9,8 @@
     "prebuild": "rm -rf dist",
     "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test": "jest"
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
@@ -31,11 +32,18 @@
     "@storybook/react": "^7.0.12",
     "@storybook/react-webpack5": "^7.0.12",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@types/jest": "^29.5.1",
     "@types/node": "^20.1.4",
     "@types/react": "^18.2.6",
     "@types/styled-system": "^5.1.16",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "react-test-renderer": "^18.2.0",
     "rollup": "^2.79.1",
     "rollup-plugin-postcss": "^4.0.2",
-    "storybook": "^7.0.12"
+    "storybook": "^7.0.12",
+    "ts-jest": "^29.1.0"
   }
 }
