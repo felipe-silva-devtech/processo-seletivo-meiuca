@@ -12,3 +12,6 @@ export type { ParagraphProps } from "./components/Paragraph";
 
 export { Shape } from "./components/Shape";
 export type { ShapeProps } from "./components/Shape";
+
+export { Card } from "./components/Card";
+export type { CardProps } from "./components/Card";
