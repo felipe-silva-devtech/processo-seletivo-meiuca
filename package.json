@@ -5,7 +5,8 @@
   "description": "Processo Seletivo Meiuca | Estudo de Caso | Tecnologia",
   "scripts": {
     "build": "lerna run build",
-    "start": "yarn build && lerna run storybook"
+    "start": "yarn build && lerna run storybook",
+    "test": "yarn build && lerna run test"
   },
   "repository": {
     "type": "git",
