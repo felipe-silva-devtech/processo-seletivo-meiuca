@@ -15,4 +15,4 @@ export default {
   },
 } as Meta<HeadingProps>;
 
-export const Default: StoryFn<HeadingProps> = (args) => <Heading {...args} />;
+export const Default: StoryFn<typeof Heading> = (args) => <Heading {...args} />;

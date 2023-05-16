@@ -15,4 +15,4 @@ export default {
   },
 } as Meta<ButtonProps>;
 
-export const Default: StoryFn<ButtonProps> = (args) => <Button {...args} />;
+export const Default: StoryFn<typeof Button> = (args) => <Button {...args} />;

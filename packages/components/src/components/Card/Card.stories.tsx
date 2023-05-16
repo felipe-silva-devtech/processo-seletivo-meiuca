@@ -24,4 +24,4 @@ export default {
   },
 } as Meta<CardProps>;
 
-export const Default: StoryFn<CardProps> = (args) => <Card {...args} />;
+export const Default: StoryFn<typeof Card> = (args) => <Card {...args} />;

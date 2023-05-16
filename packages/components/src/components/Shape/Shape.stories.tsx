@@ -10,7 +10,7 @@ export default {
   component: Shape,
 } as Meta<ShapeProps>;
 
-export const Default: StoryFn<ShapeProps> = (args) => (
+export const Default: StoryFn<typeof Shape> = (args) => (
   <Shape {...args} width="300px" height="427px">
     <Heading>Content</Heading>
   </Shape>

@@ -19,6 +19,6 @@ export default {
   },
 } as Meta<ParagraphProps>;
 
-export const Default: StoryFn<ParagraphProps> = (args) => (
+export const Default: StoryFn<typeof Paragraph> = (args) => (
   <Paragraph {...args} />
 );
