@@ -10,7 +10,8 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.0"
+    "@emotion/react": "^11.11.0",
+    "@psm/tokens": "1.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
