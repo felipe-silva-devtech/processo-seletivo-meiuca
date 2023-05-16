@@ -1,4 +1,4 @@
 import styled from "@emotion/styled";
-import { color } from "styled-system";
+import { basicProps } from "../../utils/styled-system-utils";
 
-export const StyledButton = styled("button")(color);
+export const StyledButton = styled("button")(basicProps);

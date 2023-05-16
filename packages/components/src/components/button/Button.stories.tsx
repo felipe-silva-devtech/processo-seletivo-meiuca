@@ -11,7 +11,7 @@ export default {
     label: { control: { type: "text" } },
   },
   args: {
-    label: "Button",
+    label: "Button Label",
   },
 } as Meta<ButtonProps>;
 

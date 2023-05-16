@@ -8,9 +8,5 @@ export const Button: React.FC<ButtonProps> = ({
   label,
   ...props
 }) => {
-  return (
-    <StyledButton type="button" bg="brand.primary.01" {...props}>
-      {children ? children : label}
-    </StyledButton>
-  );
+  return <StyledButton {...props}>{children ? children : label}</StyledButton>;
 };

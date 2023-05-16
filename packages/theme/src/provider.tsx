@@ -1,5 +1,9 @@
 import React from "react";
-import { ThemeProvider as EmotionThemeProvider } from "@emotion/react";
+import {
+  ThemeProvider as EmotionThemeProvider,
+  Global as EmotionGlobal,
+  css,
+} from "@emotion/react";
 import { Theme } from "./theme";
 
 interface ThemeProviderProps extends React.PropsWithChildren {
@@ -9,4 +13,13 @@ interface ThemeProviderProps extends React.PropsWithChildren {
 export const ThemeProvider: React.FC<ThemeProviderProps> = ({
   children,
   theme,
-}) => <EmotionThemeProvider theme={theme}>{children}</EmotionThemeProvider>;
+}) => (
+  <EmotionThemeProvider theme={theme}>
+    <EmotionGlobal
+      styles={css`
+        @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap");
+      `}
+    />
+    {children}
+  </EmotionThemeProvider>
+);
