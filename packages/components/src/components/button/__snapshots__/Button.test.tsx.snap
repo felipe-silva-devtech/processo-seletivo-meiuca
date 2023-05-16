@@ -1,9 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`changes the class when hovered 1`] = `
-<button
-  className="css-gkv5w0"
->
-  Button Label
-</button>
+exports[`Button render component 1`] = `
+<div>
+  <button
+    class="css-gkv5w0"
+  >
+    Button Label
+  </button>
+</div>
+`;
+
+exports[`Button render component with children 1`] = `
+<div>
+  <button
+    class="css-gkv5w0"
+  >
+    Button Label
+  </button>
+</div>
 `;

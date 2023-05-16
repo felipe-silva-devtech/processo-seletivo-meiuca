@@ -2,7 +2,10 @@ module.exports = {
   collectCoverage: true,
   coverageDirectory: "coverage",
   coverageReporters: ["lcov"],
-  collectCoverageFrom: ["<rootDir>/src/components/**/*.{js,jsx,ts,tsx}"],
+  collectCoverageFrom: [
+    "<rootDir>/src/components/**/*.{js,jsx,ts,tsx}",
+    "!<rootDir>/src/components/**/*stories.{js,jsx,ts,tsx}",
+  ],
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
   preset: "ts-jest",
   setupFilesAfterEnv: ["./jest.setup.ts"],

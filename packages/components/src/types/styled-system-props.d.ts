@@ -23,5 +23,6 @@ export type StyledSystemProps = SpaceProps &
   BackgroundProps &
   PositionProps;
 
-export type ComponentWithStyledSystem = StyledSystemProps &
-  React.PropsWithChildren;
+export type ComponentWithStyledSystem = React.PropsWithChildren &
+  React.HTMLAttributes<any> &
+  StyledSystemProps;
